@@ -1,396 +1,352 @@
 <div align="center">
 
-# 💙 NS GAMMING — Termux-Tor-IP-Rotator  
-### 🚀 Ghost Engine v4 — Hybrid Tor Privacy System & IP Rotation Framework  
+<br>
 
-A fully automated Tor-powered privacy and IP masking system designed primarily for **Android + Termux**, with extended support for **Linux, macOS and Windows (WSL2)**.
+<img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20macOS%20%7C%20WSL2-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Version-Ghost%20Engine%20v4-important?style=for-the-badge">
+<img src="https://img.shields.io/badge/Privacy-TOR%20Network%20%7C%20SOCKS5%20%2B%20Proxy-purple?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge">
+<img src="https://img.shields.io/github/license/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge">
 
-Built with:
-- ⚡ Fast auto-rotate system  
-- 🔐 No logs  
-- 👻 Ghost UI  
-- 💻 Cross-platform guidance  
-- 🚫 Beginner error-proof instructions  
+<br><br>
 
-Perfect for:
-> Learning cybersecurity • anonymous browsing • Tor network study • privacy enhancement • research environments.
-
----
-
-### ⭐ If this project helps you — **STAR ⭐ the repository**
-It improves ranking, trust and ensures future updates continue 💙
-
----
+# 💙 NS GAMING — Termux-Tor-IP-Rotator  
+### 👻 GHOST ENGINE v4 — Advanced Hybrid Tor Privacy Framework  
 
 </div>
 
 ---
 
-## 📌 Repository  
-🔗 **https://github.com/ns-gamming/Termux-Tor-IP-Rotator**
+<p align="center">
+Ghost Engine v4 is a <b>professional-grade Tor privacy and identity rotator framework</b> designed primarily for <b>Android (Termux)</b>, with extended support for Desktop platforms including <b>Linux, macOS, and Windows WSL2</b>.
+<br><br>
+It enables system-wide routing through Tor, automated identity rotation, anonymous networking, and terminal-based privacy testing — while staying secure, documented, and beginner-friendly.
+</p>
 
 ---
 
-## 🎯 What This Tool Does (Clear Breakdown)
+<div align="center">
 
-| Feature | Working | Description |
-|--------|---------|-------------|
-| 🧱 Tor Proxy Engine | ✅ | Turns your device into a Tor-based proxy (`127.0.0.1:8118`) |
-| 🔁 Auto IP Rotation | ✅ | Rotates exit node based on user-selected interval |
-| 🔄 Manual IP Rotate | ✅ | Press once → instant `SIGNAL NEWNYM` |
-| 🧾 IP History System | ✅ | Shows previous exit IPs, does NOT overwrite |
-| 🧪 Torify URLs | ✅ | Check any website using Tor tunnel with `curl` |
-| 🔍 Debug Dashboard | ✅ | Built-in service health, logs and status |
-| 💾 No command history | ✅ | Secure session — shell history wiped |
-| 🌍 Browser + Wi-Fi support | ✅ | Works system-wide if proxy applied |
+⭐ If this tool helps you —  
+# **PLEASE STAR ⭐ THE REPOSITORY**
+It boosts ranking, visibility & future development 💙
 
-> This is **not just a script** —  
-> It’s a **private Tor controller environment**.
+</div>
+
+<br>
 
 ---
 
-## ⚠ Ethical & Legal Notice
+## 🔥 Why This Tool Exists
 
-This project is created for:
+Modern digital tracking includes:
 
-✔ cybersecurity education  
-✔ anonymity testing  
-✔ privacy research  
-✔ safe browsing education  
+- Browser fingerprinting  
+- IP logs  
+- Search telemetry  
+- DNS leaks  
+- Cross-session metadata  
+- ISP surveillance  
 
-❌ **NOT for abuse, crime, or evading law enforcement.**  
+Ghost Engine solves one part:
 
-You — not the developer — are responsible for how you use this tool.
+> **Your real IP stops being consistent.**
 
----
-
-## 🔥 Feature List (Basic → Advanced)
-
-### 🟦 Beginner-Friendly
-- 1-Command setup  
-- Works without root  
-- Auto dependency installation  
-- Simple clear UI  
-
-### 🟩 Intermediate
-- Auto-Rotate mode  
-- Torify URLs  
-- Status / log viewer  
-- Browser + Wi-Fi proxy routing support  
-
-### 🟥 Advanced
-- Tor ControlPort automation (`NEWNYM`)  
-- Temporary RAM-based IP history  
-- Shell-hardening (no trace storage)  
-- Fully scriptable runtime with event handling  
-- Multi-OS support  
+This script uses **Tor ControlPort automation** to rotate exit nodes on demand or automatically, creating an unpredictable network identity profile.
 
 ---
 
+<br>
+
+## 🧠 Use Cases
+
+✔ Cybersecurity learning  
+✔ Tor network research  
+✔ OSINT and anonymity experiment  
+✔ Identity-rotation lab environment  
+✔ Avoiding analytics profiling  
+✔ Testing darknet routing  
+✔ Browser + tool anonymization  
+
+⚠ **NOT intended for:**
+
+🚫 Fraud  
+🚫 Hacking accounts  
+🚫 Bypassing law enforcement  
+🚫 Criminal intent  
+
+You — not the developer — are legally responsible.
+
 ---
 
-# 📦 Installation — Step-by-Step (All Platforms)
+<br>
 
 ---
 
-## 📱 Android (Termux) — **Primary Recommended Setup**
+## ⚙ Technical Highlights
 
-### 1️⃣ Install Termux — ONLY from F-Droid
-
-> **Play Store version is outdated and will break dependencies.**
-
-✔ Official safe version:  
-📥 https://f-droid.org/en/packages/com.termux/
+| Component | Status | Description |
+|----------|--------|-------------|
+| 🧱 Tor Socks Engine | 🟢 Active | Tor daemon and exit routing |
+| 🔁 IP Auto-Rotate | 🟢 Configurable | Interval min 3 seconds |
+| 🔄 Manual NEWNYM | 🟢 Supported | Button-based triggers |
+| 🧪 Torify Requests | 🟢 Built-in | `curl` via proxy |
+| 🔍 Debug Dashboard | 🟢 Included | Live logs + port status |
+| 📜 IP Memory Log | 🟢 Session-Only | No disk write |
+| 🔐 No Trace Mode | 🟢 Enabled | Bash history disabled & wiped |
+| 🌐 System-wide Proxy | 🟢 Supported | Wi-Fi Proxy Method (Android) |
 
 ---
 
-### 2️⃣ Update Termux (Fixes missing packages errors)
+<br>
+
+---
+
+# 📦 Installation (All Platforms)
+
+---
+
+## 📱 Android (Termux) — 🏆 Recommended
+
+#### 1️⃣ Install Termux (Correct Source Required)
+
+📥 https://f-droid.org/en/packages/com.termux/  
+> (Play Store version is broken and unsupported.)
+
+---
+
+#### 2️⃣ Update System Packages
 
 ```bash
 pkg update -y && pkg upgrade -y
 
-If you see:
-
-repository under maintenance
-
-➡ Run again after 1–2 minutes.
+If repo error appears, wait a moment and retry.
 
 
 ---
 
-3️⃣ Install Required Packages
+3️⃣ Install Dependencies
 
 pkg install git tor privoxy curl netcat-openbsd -y
 
-Common beginner errors & fixes:
+If privoxy fails:
 
-Error	Fix
-
-unable to locate package tor	Your Termux source is wrong → install from F-Droid
-curl not installed	Run: pkg install curl
-privoxy missing	Run: pkg install tur-repo -y && pkg install privoxy -y
-
+pkg install tur-repo -y && pkg install privoxy -y
 
 
 ---
 
-4️⃣ Clone the Repository
+4️⃣ Clone This Repository
 
-cd ~
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
 cd Termux-Tor-IP-Rotator
 
-If you see:
 
-fatal: unable to resolve host
+---
 
-➡ Internet or DNS issue. Toggle airplane mode & retry.
+5️⃣ Install Ghost Engine Globally
+
+chmod +x install.sh
+bash install.sh
 
 
 ---
 
-5️⃣ Install System-Wide Command
+6️⃣ Run the Engine
 
-chmod +x Termux-Tor-IP-Rotator.sh
-cp Termux-Tor-IP-Rotator.sh /data/data/com.termux/files/usr/bin/tor-rotator
-chmod +x /data/data/com.termux/files/usr/bin/tor-rotator
+ns-ghost
 
-
----
-
-6️⃣ Run the Program
-
-tor-rotator
+⏳ First boot may require restart — Tor sometimes needs time to bootstrap.
 
 
 ---
 
-🌀 IMPORTANT FIRST-RUN NOTE:
-Tor sometimes needs 1–2 restarts to finalize its circuits.
+<br>
+---
 
-If you see:
+💻 Linux (Ubuntu / Kali / Parrot / Debian)
 
-[DOWN]
-
-UNKNOWN IP
-
-Bootstrapped stalled at 5%
-
-
-Do:
-
-Option 8 → Stop Engine  
-Option 1 → Start Engine Again  
-Wait 10–20s
-
-This is normal for Tor networks.
+sudo apt update && sudo apt install git tor privoxy curl netcat -y
+git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
+cd Termux-Tor-IP-Rotator
+chmod +x ns-ghost.sh
+./ns-ghost.sh
 
 
 ---
 
+🍎 macOS (Intel & M-Series)
 
----
+Requires Homebrew:
 
-🧭 Program Menu Explanation
-
-Menu Number	Action
-
-1	Start / Restart Ghost Engine
-2	Auto IP Rotation Mode
-3	Single Rotate (NEWNYM + Show IPs)
-4	Show Active IP & IP History
-5	Tor Status + Last Logs
-6	Torify any custom URL via Tor
-7	About + Credit
-8	Stop Tor, Privoxy & clear routing
-0	Safe Exit
-
+brew install tor privoxy curl nmap
+git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
+cd Termux-Tor-IP-Rotator
+chmod +x ns-ghost.sh
+./ns-ghost.sh
 
 
 ---
 
+🪟 Windows (WSL2 Only — NOT PowerShell)
+
+sudo apt update
+sudo apt install git tor privoxy curl netcat -y
+git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
+cd Termux-Tor-IP-Rotator
+./ns-ghost.sh
+
 
 ---
 
-🌍 Routing Browser or Apps Through Tor
+<br>
+---
 
-📱 Android – Wi-Fi Proxy Setup
+🌍 System-Wide Proxy (Android Wi-Fi)
 
-1. Open Wi-Fi settings
+Open:
 
-
-2. Long-press your connected network
-
-
-3. Tap Modify network
-
-
-4. Expand Advanced options
-
-
-5. Set:
+> Settings → Wi-Fi → Modify Network → Advanced Options → Proxy: Manual
 
 
 
-Setting	Value
+Set:
 
-Proxy	Manual
+Field	Value
+
 Hostname	127.0.0.1
 Port	8118
 
 
-⚠️ If you TURN OFF Tor engine but KEEP the proxy → internet will stop working.
-Just set proxy to None.
+✔ Internet becomes TOR-based
+⚠ If Ghost Engine stops → disable proxy or no internet.
 
 
 ---
 
-🦊 Browser Compatibility
-
-Browser	Status
-
-Firefox / Firefox Focus	⭐ Best
-Brave	Good
-DuckDuckGo	Good
-Chrome	🚫 Sometimes blocks system proxy
-Tor Browser App	Optional (already uses Tor separately)
-
-
-
+<br>
 ---
 
+🧪 Verify Your Tor IP
 
----
-
-🧪 Testing Your Connection
-
-Via Terminal:
+Terminal:
 
 curl --proxy http://127.0.0.1:8118 https://api64.ipify.org
 
-Via Browser:
+Browser:
 
-https://check.torproject.org
-
-
----
+🔗 https://check.torproject.org/
 
 
 ---
 
-💻 Linux / macOS / Windows-WSL2 Support
+<br>
+---
 
-> Termux features remain primary. Other systems run in manual compatibility mode.
+🔄 Updating the Tool
 
-
-
-Install Dependencies:
-
-Debian/Ubuntu:
-
-sudo apt install git tor privoxy curl netcat -y
-
-Arch:
-
-sudo pacman -S tor privoxy curl ncat
-
-macOS (Homebrew):
-
-brew install tor privoxy curl nmap
+cd ~/Termux-Tor-IP-Rotator
+bash update.sh
 
 
 ---
 
-Modify Script Header to:
+❌ Uninstall Cleanly
 
-#!/usr/bin/env bash
-
-Then:
-
-chmod +x Termux-Tor-IP-Rotator.sh
-./Termux-Tor-IP-Rotator.sh
+cd ~/Termux-Tor-IP-Rotator
+bash uninstall.sh
 
 
 ---
 
-
+<br>
 ---
 
-🆘 Troubleshooting — Every Common Beginner Issue
+🆘 Troubleshooting
 
-Problem	Meaning	Fix
+Symptom	Meaning	Fix
 
-Tor Ports DOWN	Tor failed bootstrap	Restart engine (option 1)
-IP = UNKNOWN	Tor still connecting	Wait or restart
-Website still shows real IP	Browser not using proxy	Enable Wi-Fi proxy
-Internet stops working	Proxy enabled but engine off	Disable Wi-Fi proxy
-Same IP repeating	Tor selected same exit node	Rotate again
-nc: command not found	netcat missing	pkg install netcat-openbsd
-No git	Git missing	pkg install git
+Tor stuck 5–20%	Network establishing	Restart engine
+No internet	Proxy ON but engine OFF	Disable Wi-Fi proxy
+Chrome leaking info	Chrome bypasses proxy	Use Firefox
+Same exit IP repeating	Tor node selection repeat	Rotate again
 
 
 
 ---
 
-
+<br>
 ---
 
-🔐 Security Guidelines
+🔐 Security Notes
 
-✔ Use Firefox or privacy-supporting apps
-✔ Disconnect when not using Tor
-✔ Do NOT log into personal accounts
+✔ Prefer Firefox with privacy extensions
+✔ Avoid personal account logins
+✔ Disable WebRTC
+✔ Use Bridges if Tor blocked
+✔ Rotate fingerprint often
 
-❌ Tor ≠ Invincibility
-❌ Tor ≠ license to break laws
-❌ Tor ≠ VPN replacement
+Tor ≠ invisibility
+Tor ≠ immunity
+Tor ≠ crime tool
 
-This is a privacy research tool — not a weapon.
-
-
----
-
-
----
-
-💙 Donations & Support
-
-If you want to support development:
-
-BTC Wallet: bc1qhuv4slkdqnn0p2lpag3367e8ydsx56cu54e56a
-
-💙 Every tiny contribution helps.
+This is a privacy research environment, NOT a weapon.
 
 
 ---
 
-📧 Contact
+<br>
+---
 
-📩 Email: nishant.ns.business@gmail.com
+💙 Support & Donation
 
-🔧 Updates: Repo Releases Section
+If you love this project and want more features, donate here:
+
+BTC:
+bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du
+
+Every satoshi fuels development 💙
 
 
+---
 
+<br>
+---
+
+👤 Author & Credits
+
+<div align="center">Built With 💙 By
+
+NISHANT SARKAR
+
+aka
+
+NABORAJ SARKAR (NS GAMING)
+
+📧 Email: nishant.ns.business@gmail.com
+
+</div>
+---
+
+<br>
 ---
 
 🏷 License
 
-Licensed under the MIT License — free to use, fork, modify, and improve with credit.
+This project is licensed under:
+
+MIT License — Free to use, modify, and improve with credit.
 
 
 ---
 
-<div align="center">⭐ If this helped you —
+<div align="center">⭐ If this tool helped you —
 
-STAR ⭐ THE REPO
+PLEASE STAR ⭐ THE REPOSITORY
 
-💙 Stay Anonymous. Stay Secure. Stay Ghost. 👻
-
-Made by — Nishant Sarkar || NS GAMMING
+💙 Stay Anonymous
+💙 Stay Secure
+💙 Stay Ghost 👻
 
 </div>
-
-say:
-
-👉 "Next: Extras + Branding Build."
+```
