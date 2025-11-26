@@ -18,64 +18,43 @@
 ---
 
 <p align="center">
-Ghost Engine v4 is a <b>professional-grade Tor privacy and identity rotator framework</b> designed primarily for <b>Android (Termux)</b>, with extended support for Desktop platforms including <b>Linux, macOS, and Windows WSL2</b>.
-<br><br>
-It enables system-wide routing through Tor, automated identity rotation, anonymous networking, and terminal-based privacy testing — while staying secure, documented, and beginner-friendly.
+Ghost Engine v4 is a <b>professional-grade Tor identity rotation system</b> built primarily for <b>Android + Termux</b> with full cross-platform support for <b>Linux, macOS, and Windows (WSL2)</b>.  
+It enables system-wide anonymous routing through Tor with fast IP rotation, proxy support, and diagnostic tools — while remaining lightweight, secure, and beginner-friendly.
 </p>
 
 ---
 
 <div align="center">
 
-⭐ If this tool helps you —  
+⭐ If this project helps you —  
 # **PLEASE STAR ⭐ THE REPOSITORY**
-It boosts ranking, visibility & future development 💙
+Your support keeps development alive 💙
 
 </div>
 
+---
+
 <br>
 
 ---
 
-## 🔥 Why This Tool Exists
+## 🔥 Why Ghost Engine Exists
 
-Modern digital tracking includes:
+The modern internet tracks you through:
 
 - Browser fingerprinting  
-- IP logs  
-- Search telemetry  
-- DNS leaks  
-- Cross-session metadata  
-- ISP surveillance  
+- IP metadata  
+- DNS requests  
+- Web cookies  
+- Location-based routing  
+- ISP monitoring  
+- Advertising IDs  
 
-Ghost Engine solves one part:
+Ghost Engine solves a major part:
 
-> **Your real IP stops being consistent.**
+> **Your visible network identity becomes unpredictable.**
 
-This script uses **Tor ControlPort automation** to rotate exit nodes on demand or automatically, creating an unpredictable network identity profile.
-
----
-
-<br>
-
-## 🧠 Use Cases
-
-✔ Cybersecurity learning  
-✔ Tor network research  
-✔ OSINT and anonymity experiment  
-✔ Identity-rotation lab environment  
-✔ Avoiding analytics profiling  
-✔ Testing darknet routing  
-✔ Browser + tool anonymization  
-
-⚠ **NOT intended for:**
-
-🚫 Fraud  
-🚫 Hacking accounts  
-🚫 Bypassing law enforcement  
-🚫 Criminal intent  
-
-You — not the developer — are legally responsible.
+Powered by Tor + automated ControlPort signals, it changes exit nodes (IP addresses) on demand or automatically every selected interval — as low as **3 seconds**.
 
 ---
 
@@ -83,18 +62,18 @@ You — not the developer — are legally responsible.
 
 ---
 
-## ⚙ Technical Highlights
+## 🧠 Who Is This For?
 
-| Component | Status | Description |
-|----------|--------|-------------|
-| 🧱 Tor Socks Engine | 🟢 Active | Tor daemon and exit routing |
-| 🔁 IP Auto-Rotate | 🟢 Configurable | Interval min 3 seconds |
-| 🔄 Manual NEWNYM | 🟢 Supported | Button-based triggers |
-| 🧪 Torify Requests | 🟢 Built-in | `curl` via proxy |
-| 🔍 Debug Dashboard | 🟢 Included | Live logs + port status |
-| 📜 IP Memory Log | 🟢 Session-Only | No disk write |
-| 🔐 No Trace Mode | 🟢 Enabled | Bash history disabled & wiped |
-| 🌐 System-wide Proxy | 🟢 Supported | Wi-Fi Proxy Method (Android) |
+| Intended User | Suitable? |
+|--------------|-----------|
+| Cybersecurity Learner | 🟢 YES |
+| OSINT / Research User | 🟢 YES |
+| Darknet Researcher | 🟢 YES |
+| Ethical Hacker / Pentester | 🟢 YES |
+| Data Analyst / Tor Tester | 🟢 YES |
+| Criminal Activity / Abuse | 🔴 NO |
+
+⚠️ **You are responsible for how you use this tool.**
 
 ---
 
@@ -102,41 +81,59 @@ You — not the developer — are legally responsible.
 
 ---
 
-# 📦 Installation (All Platforms)
+## ⚙ Technical Capabilities
+
+| Feature | Status | Detail |
+|--------|--------|--------|
+| SOCKS5 + HTTP Tor Proxy | 🟢 127.0.0.1:9050 + 8118 |
+| Auto-Rotation System | 🟢 Select interval (min 3 sec) |
+| Manual NEWNYM Rotation | 🟢 Instant identity change |
+| IP History Memory | 🟢 Stored only in RAM |
+| Torify URL Support | 🟢 Uses curl |
+| Debug System + Logs | 🟢 Status panel included |
+| No Terminal Trace | 🟢 History wiped + disabled |
+| System-Wide Proxy Mode | 🟢 Works across apps & browsers |
 
 ---
 
-## 📱 Android (Termux) — 🏆 Recommended
-
-#### 1️⃣ Install Termux (Correct Source Required)
-
-📥 https://f-droid.org/en/packages/com.termux/  
-> (Play Store version is broken and unsupported.)
+<br>
 
 ---
 
-#### 2️⃣ Update System Packages
+# 📦 Installation (All Operating Systems)
+
+---
+
+## 📱 Android — Termux (Primary Recommended)
+
+#### 1️⃣ Install Termux (ONLY FROM F-Droid)
+
+> Play Store version is outdated and WILL break.
+
+📥 https://f-droid.org/en/packages/com.termux/
+
+---
+
+#### 2️⃣ Update System
 
 ```bash
 pkg update -y && pkg upgrade -y
 
-If repo error appears, wait a moment and retry.
-
 
 ---
 
-3️⃣ Install Dependencies
+3️⃣ Install Required Dependencies
 
 pkg install git tor privoxy curl netcat-openbsd -y
 
-If privoxy fails:
+If privoxy errors:
 
 pkg install tur-repo -y && pkg install privoxy -y
 
 
 ---
 
-4️⃣ Clone This Repository
+4️⃣ Clone Repo
 
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
 cd Termux-Tor-IP-Rotator
@@ -152,11 +149,11 @@ bash install.sh
 
 ---
 
-6️⃣ Run the Engine
+6️⃣ Launch the Engine
 
 ns-ghost
 
-⏳ First boot may require restart — Tor sometimes needs time to bootstrap.
+⏳ If Tor shows DOWN or UNKNOWN, exit and start again — Tor sometimes needs 10–20 seconds to build circuits.
 
 
 ---
@@ -164,7 +161,7 @@ ns-ghost
 <br>
 ---
 
-💻 Linux (Ubuntu / Kali / Parrot / Debian)
+💻 Linux (Debian / Ubuntu / Kali / Parrot)
 
 sudo apt update && sudo apt install git tor privoxy curl netcat -y
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
@@ -175,7 +172,7 @@ chmod +x ns-ghost.sh
 
 ---
 
-🍎 macOS (Intel & M-Series)
+🍎 macOS (Intel + M-Series)
 
 Requires Homebrew:
 
@@ -188,7 +185,7 @@ chmod +x ns-ghost.sh
 
 ---
 
-🪟 Windows (WSL2 Only — NOT PowerShell)
+🪟 Windows (WSL2 Only)
 
 sudo apt update
 sudo apt install git tor privoxy curl netcat -y
@@ -202,15 +199,11 @@ cd Termux-Tor-IP-Rotator
 <br>
 ---
 
-🌍 System-Wide Proxy (Android Wi-Fi)
+🌍 Route Device Traffic Through Tor
 
-Open:
+📱 Android Wi-Fi Proxy Setup:
 
-> Settings → Wi-Fi → Modify Network → Advanced Options → Proxy: Manual
-
-
-
-Set:
+Settings → Wi-Fi → Modify Network → Advanced Settings → Proxy: Manual
 
 Field	Value
 
@@ -218,8 +211,7 @@ Hostname	127.0.0.1
 Port	8118
 
 
-✔ Internet becomes TOR-based
-⚠ If Ghost Engine stops → disable proxy or no internet.
+⚠ If Ghost Engine is OFF — disable proxy or internet will break.
 
 
 ---
@@ -227,13 +219,13 @@ Port	8118
 <br>
 ---
 
-🧪 Verify Your Tor IP
+🧪 Test If You Are Using Tor
 
-Terminal:
+Terminal Check:
 
 curl --proxy http://127.0.0.1:8118 https://api64.ipify.org
 
-Browser:
+Browser Check:
 
 🔗 https://check.torproject.org/
 
@@ -243,18 +235,15 @@ Browser:
 <br>
 ---
 
-🔄 Updating the Tool
+🔄 Updates & Uninstall
 
-cd ~/Termux-Tor-IP-Rotator
-bash update.sh
+Update:
 
+cd ~/Termux-Tor-IP-Rotator && bash update.sh
 
----
+Uninstall:
 
-❌ Uninstall Cleanly
-
-cd ~/Termux-Tor-IP-Rotator
-bash uninstall.sh
+cd ~/Termux-Tor-IP-Rotator && bash uninstall.sh
 
 
 ---
@@ -262,14 +251,14 @@ bash uninstall.sh
 <br>
 ---
 
-🆘 Troubleshooting
+🆘 Troubleshooting Center
 
-Symptom	Meaning	Fix
+Problem	Reason	Fix
 
-Tor stuck 5–20%	Network establishing	Restart engine
-No internet	Proxy ON but engine OFF	Disable Wi-Fi proxy
-Chrome leaking info	Chrome bypasses proxy	Use Firefox
-Same exit IP repeating	Tor node selection repeat	Rotate again
+No internet	Proxy active but Tor off	Disable proxy
+Same exit IP repeating	Tor reused node	Rotate again
+Tor stuck at 5–20%	Relay handshake slow	Restart engine
+Chrome leaks identity	Chrome bypasses proxy	Use Firefox
 
 
 
@@ -278,19 +267,16 @@ Same exit IP repeating	Tor node selection repeat	Rotate again
 <br>
 ---
 
-🔐 Security Notes
+🔐 Security Tips
 
-✔ Prefer Firefox with privacy extensions
-✔ Avoid personal account logins
+✔ Use Firefox
 ✔ Disable WebRTC
-✔ Use Bridges if Tor blocked
-✔ Rotate fingerprint often
+✔ Do NOT log into real accounts
+✔ Rotate often
+✔ Prefer privacy-friendly OS
 
-Tor ≠ invisibility
-Tor ≠ immunity
-Tor ≠ crime tool
-
-This is a privacy research environment, NOT a weapon.
+Tor ≠ immunity.
+Privacy comes from behavior + tools, not just tools.
 
 
 ---
@@ -298,14 +284,14 @@ This is a privacy research environment, NOT a weapon.
 <br>
 ---
 
-💙 Support & Donation
+💙 Support Development
 
-If you love this project and want more features, donate here:
+If you appreciate this project:
 
-BTC:
+BTC Donation Address:
 bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du
 
-Every satoshi fuels development 💙
+Even small support helps future releases 👻
 
 
 ---
@@ -313,19 +299,31 @@ Every satoshi fuels development 💙
 <br>
 ---
 
-👤 Author & Credits
+👤 Author Info
 
-<div align="center">Built With 💙 By
+<div align="center">Built by:
 
-NISHANT SARKAR
+Nishant Sarkar
 
 aka
 
-NABORAJ SARKAR (NS GAMING)
+Naboraj Sarkar (NS GAMING)
 
-📧 Email: nishant.ns.business@gmail.com
+📧 Email → nishant.ns.business@gmail.com
 
 </div>
+---
+
+🔗 Connect With Me
+
+YouTube: https://youtube.com/@Nishant_sarkar
+Telegram: https://t.me/nsgamming69
+Instagram: https://instagram.com/nishant_sarkar__10k
+X (Twitter): https://x.com/NSGAMMING699
+Website: https://nsgamming.xyz
+GitHub: https://github.com/ns-gamming
+
+
 ---
 
 <br>
@@ -333,16 +331,12 @@ NABORAJ SARKAR (NS GAMING)
 
 🏷 License
 
-This project is licensed under:
-
-MIT License — Free to use, modify, and improve with credit.
+MIT License — Free to use, modify and improve with credit.
 
 
 ---
 
-<div align="center">⭐ If this tool helped you —
-
-PLEASE STAR ⭐ THE REPOSITORY
+<div align="center">⭐ If this helped you — STAR ⭐ the repo.
 
 💙 Stay Anonymous
 💙 Stay Secure
