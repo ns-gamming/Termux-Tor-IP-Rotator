@@ -10,7 +10,7 @@
 
 <br><br>
 
-# 💙 NS GAMING — Termux-Tor-IP-Rotator  
+# 💙 NS GAMMING — Termux-Tor-IP-Rotator  
 ### 👻 GHOST ENGINE v4 — Advanced Hybrid Tor Privacy Framework  
 
 </div>
@@ -307,7 +307,7 @@ Nishant Sarkar
 
 aka
 
-Naboraj Sarkar (NS GAMING)
+Naboraj Sarkar (NS GAMMING)
 
 📧 Email → nishant.ns.business@gmail.com
 
