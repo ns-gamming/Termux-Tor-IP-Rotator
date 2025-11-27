@@ -1,346 +1,577 @@
+Nice, this is gonna look 🔥
+
+Here’s one single, long, complete, beautiful README you can drop into README.md.
+It has:
+
+Clean branding + banner
+
 <div align="center">
 
 <br>
 
-<img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20macOS%20%7C%20WSL2-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Version-Ghost%20Engine%20v4-important?style=for-the-badge">
-<img src="https://img.shields.io/badge/Privacy-TOR%20Network%20%7C%20SOCKS5%20%2B%20Proxy-purple?style=for-the-badge">
-<img src="https://img.shields.io/github/stars/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge">
-<img src="https://img.shields.io/github/license/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20macOS%20%7C%20WSL2-blue?style=for-the-badge" alt="Platform Badge">
+<img src="https://img.shields.io/badge/Version-Ghost%20Engine%20v4-important?style=for-the-badge" alt="Version Badge">
+<img src="https://img.shields.io/badge/Privacy-TOR%20Network%20%7C%20SOCKS5%20%2B%20HTTP%20Proxy-purple?style=for-the-badge" alt="Privacy Badge">
+<img src="https://img.shields.io/github/stars/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge" alt="Stars Badge">
+<img src="https://img.shields.io/github/license/ns-gamming/Termux-Tor-IP-Rotator?style=for-the-badge" alt="License Badge">
 
 <br><br>
 
-# 💙 NS GAMMING — Termux-Tor-IP-Rotator  
-### 👻 GHOST ENGINE v4 — Advanced Hybrid Tor Privacy Framework  
+pkg██████╗  ██████╗  ██████╗  ███████╗██╗  ██╗████████╗
+  ██╔══██╗██╔═══██╗██╔══██╗ ██╔════╝██║ ██╔╝╚══██╔══╝
+  ██████╔╝██║   ██║██████╔╝ █████╗  █████╔╝    ██║   
+  ██╔══██╗██║   ██║██╔══██╗ ██╔══╝  ██╔═██╗    ██║   
+  ██████╔╝╚██████╔╝██║  ██║ ███████╗██║  ██╗   ██║   
+  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   
+
+          G H O S T   E N G I N E   v4
+    Advanced Hybrid TOR Identity & IP Rotation System
+
+💙 NS GAMMING — Termux-Tor-IP-Rotator
+
+👻 Ghost Engine v4 — Advanced Hybrid TOR Privacy Framework
 
 </div>
+---
+
+🧠 What Is Ghost Engine v4?
+
+Ghost Engine v4 is a professional-grade TOR identity rotation framework designed to:
+
+Route your traffic through the TOR network
+
+Rotate IPs (exit nodes) automatically or on demand
+
+Provide system-wide SOCKS5 + HTTP proxy access
+
+Give you tools to test, debug, and monitor your anonymity
+
+
+It is optimized for:
+
+Android (Termux) — primary target
+
+Linux (Debian / Ubuntu / Kali / Parrot / others)
+
+macOS (Intel + Apple Silicon)
+
+Windows (WSL2 environment)
+
+
+All while staying:
+
+Lightweight
+
+Beginner-friendly
+
+Script-driven and fast
+
+
 
 ---
 
-<p align="center">
-Ghost Engine v4 is a <b>professional-grade Tor identity rotation system</b> built primarily for <b>Android + Termux</b> with full cross-platform support for <b>Linux, macOS, and Windows (WSL2)</b>.  
-It enables system-wide anonymous routing through Tor with fast IP rotation, proxy support, and diagnostic tools — while remaining lightweight, secure, and beginner-friendly.
-</p>
+🧑‍🎓 Who Is This For?
+
+Intended User	Suitable?
+
+Cybersecurity Learner	🟢 YES
+OSINT / Researcher	🟢 YES
+Darknet / Network Analyst	🟢 YES
+Ethical Hacker / Pentester	🟢 YES
+Data Analyst / Tor Tester	🟢 YES
+Criminal Activity / Abuse	🔴 NO
+
+
+> ⚠ Disclaimer:
+This tool is for education, research, privacy, and security.
+You are fully responsible for how you use it.
+Do NOT use it for illegal activities.
+
+
+
 
 ---
 
-<div align="center">
+🔍 Why Ghost Engine Exists
 
-⭐ If this project helps you —  
-# **PLEASE STAR ⭐ THE REPOSITORY**
-Your support keeps development alive 💙
+The internet tracks you using:
 
-</div>
+IP addresses & metadata
 
----
+DNS requests
 
-<br>
+Browser fingerprinting
 
----
+Web cookies & tracking pixels
 
-## 🔥 Why Ghost Engine Exists
+Location-based routing
 
-The modern internet tracks you through:
+ISP-level logging & surveillance
 
-- Browser fingerprinting  
-- IP metadata  
-- DNS requests  
-- Web cookies  
-- Location-based routing  
-- ISP monitoring  
-- Advertising IDs  
 
-Ghost Engine solves a major part:
+Ghost Engine v4 focuses on one major pillar:
 
-> **Your visible network identity becomes unpredictable.**
+> ✨ Your visible network identity (IP) becomes unpredictable and rotating.
 
-Powered by Tor + automated ControlPort signals, it changes exit nodes (IP addresses) on demand or automatically every selected interval — as low as **3 seconds**.
 
----
 
-<br>
+Using TOR + ControlPort and a custom engine, it:
 
----
+Builds TOR circuits
 
-## 🧠 Who Is This For?
+Rotates exit IPs periodically (as low as ~3 seconds)
 
-| Intended User | Suitable? |
-|--------------|-----------|
-| Cybersecurity Learner | 🟢 YES |
-| OSINT / Research User | 🟢 YES |
-| Darknet Researcher | 🟢 YES |
-| Ethical Hacker / Pentester | 🟢 YES |
-| Data Analyst / Tor Tester | 🟢 YES |
-| Criminal Activity / Abuse | 🔴 NO |
+Allows instant manual IP change
 
-⚠️ **You are responsible for how you use this tool.**
+Routes apps, terminals, and browsers through TOR
+
+
 
 ---
 
-<br>
+⚙ Technical Capabilities
+
+Capability	Status	Detail
+
+TOR SOCKS5 Proxy	🟢	127.0.0.1:9050
+HTTP Proxy via Privoxy	🟢	127.0.0.1:8118
+Auto IP Rotation	🟢	User-selectable interval (min ~3 sec)
+Manual NEWNYM Rotation	🟢	Instant TOR identity refresh
+IP History (in-memory)	🟢	Stored only in RAM (no disk persistence)
+System-wide Proxy Mode	🟢	Works via OS / browser proxy config
+TOR Status & Logs Panel	🟢	Inline debug and status view
+Shell History Cleaning	🟢	Optional history disable / cleanup
+curl / CLI Tools via TOR	🟢	Fully supported with proxy
+
+
 
 ---
 
-## ⚙ Technical Capabilities
+🧰 Requirements (All Platforms)
 
-| Feature | Status | Detail |
-|--------|--------|--------|
-| SOCKS5 + HTTP Tor Proxy | 🟢 127.0.0.1:9050 + 8118 |
-| Auto-Rotation System | 🟢 Select interval (min 3 sec) |
-| Manual NEWNYM Rotation | 🟢 Instant identity change |
-| IP History Memory | 🟢 Stored only in RAM |
-| Torify URL Support | 🟢 Uses curl |
-| Debug System + Logs | 🟢 Status panel included |
-| No Terminal Trace | 🟢 History wiped + disabled |
-| System-Wide Proxy Mode | 🟢 Works across apps & browsers |
+Common tools required:
+
+git
+
+tor
+
+privoxy
+
+curl
+
+netcat-openbsd or netcat
+
+
+> On Termux, everything is installed with pkg.
+On Linux/WSL, everything is installed with apt.
+On macOS, install via Homebrew.
+
+
+
 
 ---
 
-<br>
+🚀 Quick Start — Android (Termux) [Recommended]
 
----
-
-# 📦 Installation (All Operating Systems)
-
----
-
-## 📱 Android — Termux (Primary Recommended)
-
-#### 1️⃣ Install Termux (ONLY FROM F-Droid)
-
-> Play Store version is outdated and WILL break.
-
+> ✅ Termux must be installed from F-Droid (Play Store version is outdated and may break things).
 📥 https://f-droid.org/en/packages/com.termux/
 
----
 
-#### 2️⃣ Update System
 
-```bash
+1️⃣ Update Termux
+```
 pkg update -y && pkg upgrade -y
-
-
----
-
-3️⃣ Install Required Dependencies
-
+```
+2️⃣ Install Dependencies
+```
 pkg install git tor privoxy curl netcat-openbsd -y
-
-If privoxy errors:
-
+```
+If privoxy fails:
+```
 pkg install tur-repo -y && pkg install privoxy -y
-
-
----
-
-4️⃣ Clone Repo
-
+```
+3️⃣ Clone the Repository
+```
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
 cd Termux-Tor-IP-Rotator
-
-
----
-
-5️⃣ Install Ghost Engine Globally
-
+```
+4️⃣ Install Ghost Engine Globally
+```
 chmod +x install.sh
 bash install.sh
+```
+This will:
+
+Install needed configs
+
+Set up shortcuts / aliases (like ns-ghost)
+
+Prepare TOR + Privoxy configuration
 
 
----
-
-6️⃣ Launch the Engine
+5️⃣ Launch Ghost Engine
 
 ns-ghost
 
-⏳ If Tor shows DOWN or UNKNOWN, exit and start again — Tor sometimes needs 10–20 seconds to build circuits.
+Wait 10–20 seconds the first time — TOR needs a moment to build secure circuits.
 
 
 ---
 
-<br>
+💻 Installation — Linux (Debian / Ubuntu / Kali / Parrot)
+
+Manual Setup
+```
+sudo apt update
+sudo apt install git tor privoxy curl netcat -y
+```
+```
+git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
+cd Termux-Tor-IP-Rotator
+```
+```
+chmod +x ns-ghost.sh
+./ns-ghost.sh
+```
+
 ---
 
-💻 Linux (Debian / Ubuntu / Kali / Parrot)
+☕ macOS (Intel + Apple Silicon)
 
-sudo apt update && sudo apt install git tor privoxy curl netcat -y
+Requirements: Homebrew
+
+Install Homebrew if you don’t have it:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Install Dependencies
+```
+brew install tor privoxy curl netcat
+```
+Clone & Run
+```
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
 cd Termux-Tor-IP-Rotator
 chmod +x ns-ghost.sh
 ./ns-ghost.sh
-
-
----
-
-🍎 macOS (Intel + M-Series)
-
-Requires Homebrew:
-
-brew install tor privoxy curl nmap
-git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
-cd Termux-Tor-IP-Rotator
-chmod +x ns-ghost.sh
-./ns-ghost.sh
-
+```
 
 ---
 
 🪟 Windows (WSL2 Only)
 
+1. Enable WSL & Ubuntu from Microsoft Store
+
+
+2. Open Ubuntu terminal (WSL2)
+
+
+
+Then:
+```
 sudo apt update
 sudo apt install git tor privoxy curl netcat -y
+```
+```
 git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator
 cd Termux-Tor-IP-Rotator
+chmod +x ns-ghost.sh
 ./ns-ghost.sh
+```
+
+---
+
+🤖 Auto Debian/Ubuntu Installer (Optional but Cool)
+
+For Debian/Ubuntu/Kali/Parrot/WSL2 users, you can create an auto installer:
+
+Create a file called install_debian.sh:
+
+nano install_debian.sh
+
+Paste this inside:
+
+#!/usr/bin/env bash
+set -e
+
+echo "[*] Ghost Engine v4 — Auto Installer (Debian/Ubuntu)"
+echo
+
+# Check for sudo
+if ! command -v sudo >/dev/null 2>&1; then
+  echo "[!] sudo not found. Please install sudo or run as root."
+  exit 1
+fi
+
+# Update system
+echo "[*] Updating system..."
+sudo apt update -y && sudo apt upgrade -y
+
+# Install dependencies
+echo "[*] Installing dependencies (git, tor, privoxy, curl, netcat)..."
+sudo apt install -y git tor privoxy curl netcat || {
+  echo "[!] Failed to install dependencies. Check your sources and try again."
+  exit 1
+}
+
+# Clone repo if needed
+if [ ! -d "$HOME/Termux-Tor-IP-Rotator" ]; then
+  echo "[*] Cloning repository..."
+  git clone https://github.com/ns-gamming/Termux-Tor-IP-Rotator "$HOME/Termux-Tor-IP-Rotator"
+else
+  echo "[*] Repo already exists. Pulling latest changes..."
+  cd "$HOME/Termux-Tor-IP-Rotator"
+  git pull || true
+fi
+
+cd "$HOME/Termux-Tor-IP-Rotator"
+
+# Make main script executable
+if [ -f "ns-ghost.sh" ]; then
+  chmod +x ns-ghost.sh
+  echo "[*] Running Ghost Engine..."
+  ./ns-ghost.sh
+else
+  echo "[!] ns-ghost.sh not found. Please check repository structure."
+  exit 1
+fi
+
+echo
+echo "[✓] Ghost Engine setup finished. Enjoy staying anonymous 👻"
+
+Save & exit, then:
+```
+chmod +x install_debian.sh
+./install_debian.sh
+```
+This will:
+
+Update your system
+
+Install required packages
+
+Clone/update the repo
+
+Run ns-ghost.sh automatically
+
 
 
 ---
 
-<br>
+🎛 Sample Ghost Engine Start Screen (ASCII UI)
+
+When you start with ns-ghost, you can use something like this (example):
+
+====================================================
+        GHOST ENGINE v4 — NS GAMMING Special
+====================================================
+[+] Platform   : Termux / Linux / macOS / WSL2
+[+] TOR Status : BOOTSTRAPPING (building circuits…)
+[+] Proxy      : SOCKS5 127.0.0.1:9050  |  HTTP 127.0.0.1:8118
+[+] Rotation   : Auto (every 15 seconds)
+
+Choose an option:
+
+  [1] Start / Restart TOR + Privoxy
+  [2] Rotate Identity (NEWNYM)
+  [3] Set Auto-Rotation Interval
+  [4] Show Current IP (via TOR)
+  [5] View TOR Log / Debug Panel
+  [6] Stop & Cleanup
+  [0] Exit
+
+====================================================
+  Use this tool responsibly. You are being watched
+        — but now they don’t know from where. 👻
+====================================================
+
+You can adapt your script to print a similar UI for professional vibes 🌙
+
+
 ---
 
-🌍 Route Device Traffic Through Tor
+🌐 Route Device / Apps Through TOR
 
-📱 Android Wi-Fi Proxy Setup:
+Android Wi-Fi Proxy (System Level)
 
-Settings → Wi-Fi → Modify Network → Advanced Settings → Proxy: Manual
+1. Open Settings → Wi-Fi
+
+
+2. Long-press your network → Modify Network
+
+
+3. Expand Advanced options → Proxy: Manual
+
+
+
+Set:
 
 Field	Value
 
-Hostname	127.0.0.1
-Port	8118
+Hostname	```127.0.0.1```
+Port	```8118```
 
 
-⚠ If Ghost Engine is OFF — disable proxy or internet will break.
+> ⚠ If Ghost Engine is OFF and proxy is still ON → internet may stop working.
+Disable proxy if not using Ghost Engine.
+
+
 
 
 ---
 
-<br>
----
+CLI Tools via TOR (Linux/Termux/macOS)
 
-🧪 Test If You Are Using Tor
-
-Terminal Check:
-
+Example with curl:
+```
 curl --proxy http://127.0.0.1:8118 https://api64.ipify.org
+```
+Or using SOCKS5 via tor directly:
+```
+curl --socks5 127.0.0.1:9050 https://api64.ipify.org
+```
 
-Browser Check:
+---
+
+✅ Verify That TOR Is Working
+
+Terminal Verification
+```
+curl --proxy http://127.0.0.1:8118 https://api64.ipify.org
+```
+If that IP is different from your mobile/ISP IP → routed via TOR.
+
+
+Browser Verification
+
+Visit:
 
 🔗 https://check.torproject.org/
 
 
+You should see a “You are using Tor” style message.
+
+
 ---
 
-<br>
+🐞 Troubleshooting & Error Handling
+
+Problem	Reason / Root Cause	Fix
+
+No internet after enabling proxy	Proxy on but Ghost Engine / TOR is off	Turn off proxy or restart ns-ghost
+TOR stuck at 5–20% bootstrapping	Slow network / blocked relays	Restart, wait longer, or use VPN + TOR
+Same IP repeating after rotation	TOR reused same exit node	Rotate again, increase interval, or restart TOR
+privoxy: not found in Termux	Package not in default repo	pkg install tur-repo -y && pkg install privoxy -y
+Chrome still showing real IP	WebRTC leaks / bypassing proxy	Use Firefox, disable WebRTC
+ns-ghost: command not found	Install script not run / PATH not updated	Re-run install.sh from repo root
+Permission denied running script	No execute bit on script	chmod +x scriptname.sh
+curl: (7) Failed to connect to 127.0.0.1	TOR/Privoxy not running or wrong port	Ensure Ghost Engine is running on 8118/9050
+
+
+
 ---
 
-🔄 Updates & Uninstall
+🔐 Security Tips (Important)
 
-Update:
+✔ Use Firefox instead of Chrome-based browsers
+✔ Disable WebRTC:
+
+In Firefox: open about:config → set media.peerconnection.enabled to false
+
+
+✔ Do not log into personal accounts via TOR
+✔ Avoid mixing real identity and anonymous sessions
+✔ Rotate IP frequently if doing sensitive research
+✔ Remember: TOR ≠ 100% immunity
+Privacy = Tools + Your Behavior
+
+
+---
+
+🔄 Updating & Uninstalling
+
+Update Ghost Engine
 
 cd ~/Termux-Tor-IP-Rotator && bash update.sh
 
-Uninstall:
+Uninstall Ghost Engine
 
 cd ~/Termux-Tor-IP-Rotator && bash uninstall.sh
 
 
 ---
 
-<br>
----
+❓ FAQ
 
-🆘 Troubleshooting Center
+Q: Does this make me completely anonymous?
+A: No tool can promise 100% anonymity. Ghost Engine improves your network privacy, especially IP-based tracking, but your behavior, browser settings, and accounts still matter.
 
-Problem	Reason	Fix
+Q: Can I use VPN + Ghost Engine?
+A: Yes. Typical safe stack is:
+You → VPN → TOR (Ghost Engine) → Internet.
+Just understand the trade-offs (latency, trust in VPN, etc).
 
-No internet	Proxy active but Tor off	Disable proxy
-Same exit IP repeating	Tor reused node	Rotate again
-Tor stuck at 5–20%	Relay handshake slow	Restart engine
-Chrome leaks identity	Chrome bypasses proxy	Use Firefox
+Q: Will my ping be higher?
+A: Yes. TOR adds hops and encryption. This is a privacy tool, not meant for low-latency gaming.
 
-
-
----
-
-<br>
----
-
-🔐 Security Tips
-
-✔ Use Firefox
-✔ Disable WebRTC
-✔ Do NOT log into real accounts
-✔ Rotate often
-✔ Prefer privacy-friendly OS
-
-Tor ≠ immunity.
-Privacy comes from behavior + tools, not just tools.
+Q: Can I use this for hacking illegal stuff?
+A: No. This is strictly for ethical, educational, and research purposes.
 
 
 ---
 
-<br>
----
+💖 Support Development (Donations)
 
-💙 Support Development
+If this project helps you, you can support future versions of Ghost Engine:
 
-If you appreciate this project:
+# Crypto	Address
 
-BTC Donation Address:
-bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du
+SOL	``` bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du ```
 
-Even small support helps future releases 👻
-
-
----
-
-<br>
----
-
-👤 Author Info
-
-<div align="center">Built by:
-
-Nishant Sarkar
-
-aka
-
-Naboraj Sarkar (NS GAMMING)
-
-📧 Email → nishant.ns.business@gmail.com
-
-</div>
----
-
-🔗 Connect With Me
-
-YouTube: https://youtube.com/@Nishant_sarkar
-Telegram: https://t.me/nsgamming69
-Instagram: https://instagram.com/nishant_sarkar__10k
-X (Twitter): https://x.com/NSGAMMING699
-Website: https://nsgamming.xyz
-GitHub: https://github.com/ns-gamming
+Crypto	``` HTgZhMCd5pf474macjkHhrrJmQhczGPfrGwNaRFL7Pqc ```
+ETH	``` 0x51c356fb219117e388b85c5fa734e6ae1a3f8df6 ```Even
+Evenven a small amount helps keep the engine evolving 👻
 
 
 ---
 
-<br>
+👤 Author & Contact
+
+Built by:
+💙 Nishant Sarkar — aka NABORAJ SARKAR 
+
+📧 Email (Business): nishant.ns.business@gmail.com
+
+🌐 Website: https://nsgamming.xyz
+
+🐙 GitHub: https://github.com/ns-gamming
+
+▶️ YouTube: https://youtube.com/@Nishant_sarkar
+
+✈️ Telegram: https://t.me/nsgamming69
+
+📸 Instagram: https://instagram.com/nishant_sarkar__10k
+
+𝕏 Twitter: https://x.com/NSGAMMING699
+
+
+
 ---
 
 🏷 License
 
-MIT License — Free to use, modify and improve with credit.
+This project is licensed under the MIT License.
+You are free to use, modify, and redistribute — as long as proper credit is given.
 
 
 ---
 
-<div align="center">⭐ If this helped you — STAR ⭐ the repo.
+<div align="center">⭐ If this project helped you —
 
-💙 Stay Anonymous
+PLEASE STAR ⭐ THE REPOSITORY
+
+<br>💙 Stay Anonymous
 💙 Stay Secure
 💙 Stay Ghost 👻
 
 </div>
-```
