@@ -1,10 +1,3 @@
-Nice, this is gonna look 🔥
-
-Here’s one single, long, complete, beautiful README you can drop into README.md.
-It has:
-
-Clean branding + banner
-
 <div align="center">
 
 <br>
