@@ -526,11 +526,11 @@ If this project helps you, you can support future versions of Ghost Engine:
 
 # Crypto	Address
 
-SOL	``` bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du ```
+SOL: 	``` bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du ```
+Crypto:	``` HTgZhMCd5pf474macjkHhrrJmQhczGPfrGwNaRFL7Pqc ```
+ETH:	``` 0x51c356fb219117e388b85c5fa734e6ae1a3f8df6 ```
 
-Crypto	``` HTgZhMCd5pf474macjkHhrrJmQhczGPfrGwNaRFL7Pqc ```
-ETH	``` 0x51c356fb219117e388b85c5fa734e6ae1a3f8df6 ```Even
-Evenven a small amount helps keep the engine evolving 👻
+Even a small amount helps keep the engine evolving 👻
 
 
 ---
