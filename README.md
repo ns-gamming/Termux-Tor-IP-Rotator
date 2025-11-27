@@ -513,18 +513,43 @@ A: No. This is strictly for ethical, educational, and research purposes.
 
 ---
 
-💖 Support Development (Donations)
+## 💖 Support the Project – Keep Ghost Engine Alive
 
-If this project helps you, you can support future versions of Ghost Engine:
+Ghost Engine v4 took **time, passion, research, testing, and love** to build.
 
-# Crypto	Address
+If this tool protects your privacy, helps your learning journey, or simply inspires you —  
+**consider supporting its development.**
 
-SOL: 	``` bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du ```
-Crypto:	``` HTgZhMCd5pf474macjkHhrrJmQhczGPfrGwNaRFL7Pqc ```
-ETH:	``` 0x51c356fb219117e388b85c5fa734e6ae1a3f8df6 ```
+Your contribution:
 
-Even a small amount helps keep the engine evolving 👻
+- Helps maintain future updates 🛠  
+- Funds new features, optimization & testing  
+- Supports open-source cybersecurity tools  
+- Motivates continued development 💙  
 
+No pressure, no expectation —  
+just appreciation if you choose to help.
+
+---
+
+### 🪙 Donation Addresses
+
+| Cryptocurrency | Address |
+|----------------|---------|
+| **Bitcoin (BTC)** | `bc1q5zapes7euft2lrk7ylpwj90p8y4ctmadn285du` |
+| **Solana (SOL)** | `HTgZhMCd5pf474macjkHhrrJmQhczGPfrGwNaRFL7Pqc` |
+| **Ethereum (ETH)** | `0x51c356fb219117e388b85c5fa734e6ae1a3f8df6` |
+
+---
+
+✨ Even the smallest support means something —  
+not because of the money…  
+but because it tells me:
+
+> **"Someone out there believes in this project."**
+
+Thank you for being here —  
+and thank you for keeping the Ghost alive 👻💙
 
 ---
 
